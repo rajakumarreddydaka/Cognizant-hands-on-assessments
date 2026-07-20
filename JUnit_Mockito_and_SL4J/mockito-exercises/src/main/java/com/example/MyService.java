@@ -1,0 +1,26 @@
+package com.example;
+
+public class MyService {
+    private final ExternalApi externalApi;
+
+    public MyService(ExternalApi externalApi) {
+        this.externalApi = externalApi;
+    }
+
+    public String fetchData() {
+        return externalApi.getData();
+    }
+
+    public String fetchSpecificData(int id) {
+        return externalApi.getDataById(id);
+    }
+
+    public void executeAction(String data) {
+        externalApi.processData(data);
+    }
+
+    public void runWorkflow() {
+        externalApi.startProcess();
+        externalApi.endProcess();
+    }
+}

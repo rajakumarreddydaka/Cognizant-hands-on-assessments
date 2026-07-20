@@ -1,0 +1,4 @@
+23:16:36.738 [main] DEBUG com.example.AppenderExample - This is a DEBUG message - System initializing...
+23:16:36.742 [main] INFO  com.example.AppenderExample - This is an INFO message - Application started successfully.
+23:16:36.744 [main] WARN  com.example.AppenderExample - This is a WARN message - Resource usage is high.
+23:16:36.744 [main] ERROR com.example.AppenderExample - This is an ERROR message - Database connection failed.
