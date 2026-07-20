@@ -1,0 +1,29 @@
+.mydiv {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.mydiv h1 {
+    color: green;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #a9a9a9;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+th {
+    color: green;
+    font-weight: bold;
+}
+
+td {
+    color: #555;
+}

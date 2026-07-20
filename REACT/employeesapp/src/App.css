@@ -1,0 +1,40 @@
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.toggle-btn {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Theme Classes for Buttons */
+.btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #ced4da;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #343a40;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

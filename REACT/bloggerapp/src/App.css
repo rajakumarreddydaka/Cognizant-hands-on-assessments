@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px auto;
+  max-width: 1000px;
+  font-family: sans-serif;
+}
+
+/* Base styles for the 3 columns */
+.mystyle1, .st2, .v1 {
+  flex: 1;
+  padding: 0 30px;
+}
+
+/* Green vertical dividers */
+.divider {
+  width: 4px;
+  background-color: green;
+  height: 500px;
+}
+
+/* Remove default list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}

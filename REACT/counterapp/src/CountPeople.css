@@ -1,0 +1,20 @@
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.counter-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #a8f0b3; /* Light green to match the screenshot */
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+}
